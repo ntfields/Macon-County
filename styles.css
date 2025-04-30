@@ -71,15 +71,6 @@ body, html {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-}
 
 .navigation {
   background-color: #A4B465;
@@ -229,12 +220,6 @@ label.logo {
   padding: 0 100px;
   font-weight: bold;
 }
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-}
 
 header {
   background-color: #A4B465;
@@ -347,12 +332,7 @@ button:hover {
   line-height: 1.6;
 }
  
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
-}
+
 
 .about {
   width: 100%;
@@ -394,4 +374,81 @@ button:hover {
   font-size: 18px;
   color: #444;
   line-height: 1.6;
+}
+.services-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin: 16px;
+  color: #222;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 0 16px 16px 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.mission {
+  width: 100%;
+  padding: 100px 100px;
+  background-color: white;
+
+}
+.mission h1{
+  text-align: center;
+  color: #A4B465;
+
+
+}
+.mission p{
+  text-align: center;
+
+
+}
+.community  {
+  width: 100%;
+  padding: 100px 100px;
+  background-color: #FAF6E9;
+}
+.community h2{
+  text-align: center;
+  font-size: 40px;
+
+
+}
+.community p{
+  text-align: center;
+
+
 }
