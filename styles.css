@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+
+
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    background-image: url('images/pexels-pixabay-158063.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navigation {
+  background-color: #A4B465;
+  color: white;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-links input {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    margin-top: 10px;
+  }
+
+  .nav-links a,
+  .nav-links input {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons a {
+  background-color: #A4B465;
+  color: #f4f6f8;
+  padding: 12px 24px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buttons a:hover {
+  background-color: #A4B465;
+}
+
+@media (max-width: 768px) {
+  .navgation h1 {
+    font-size: 2.2rem;
+  }
+
+  .navgation p {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+}
+.container {
+  max-width: 1100px;
+  margin: 110px auto;
+  padding: 0 20px;
+}
+
+.department-card {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.department-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.department-title {
+  font-size: 1.3rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.department-info p {
+  margin: 5px 0;
+  line-height: 1.6;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .department-title {
+    font-size: 1.1rem;
+  }
+}
+label.logo {
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #A4B465;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+footer {
+  background-color: #A4B465;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #A4B465;
+  padding: 40px;
+  text-align: center;
+  font-size: 14px;
+ 
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+.row-cols-lg-4 > * {
+  flex: 0 0 auto;
+  width: 25%;
+}
+.row-cols-lg-5 > * {
+  flex: 0 0 auto;
+  width: 20%;
+}
+.row-cols-lg-6 > * {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+}
