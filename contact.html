@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Macon County, NC</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="navigation">
@@ -25,22 +26,42 @@
           </div>
         </nav>
       </header>
-    <div class="intro">
-        <img src="images/mock-macon-county-north-carolina.png" alt=" County Logo">
-      <h1>Welcome to Macon County, NC</h1>
-      <p>As one of the fastest growing counties in North Carolina, Macon County strives to serve our citizens, business community and those visiting the area with the most up-to-date resources possible.
-        Macon County Government is dedicated to continually seeking ways to improve the services we provide to our community. Our website is one of those services.
-        
-        This online portal to Macon County North Carolina Government will allow you to learn more about our agencies, download official forms, search for map, open a business or visit us, it’s all here at MaconNC.org..</p>
+    <div class="contact">
 
-      </div>
-    </div>
+        <div class="container">
+            <h2>Contact Us </h2>
+            <form action="/submit-form" method="POST">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+        
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+        
+              <button type="submit">Send Message</button>
+            </form>
+        
+            <div class="info">
+              <p><strong>Mailing Address:</strong><br>
+              Macon County Administration<br>
+              123 County Rd, Macon County, AL 36083</p>
+        
+              <p><strong>Phone:</strong> (555) 123-4567<br>
+              <strong>Email:</strong> info@maconcounty.gov</p>
+            </div>
+          </div>
+        
+        </div>
   </section>
   <footer class="footer">
     <p> 2010–2025 Macon County, North Carolina</p>
     <p>5 West Main Street • Franklin, NC 28734</p>
     <p>Phone: <a href="tel:+18283492000">(828) 349-2000</a></p>
-    <p><a href="https://www.maconnc.org">maconnc.org</a></p>
   </footer>
   
 </body>
